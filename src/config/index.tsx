@@ -2,9 +2,8 @@ import { cookieStorage, createStorage, http } from '@wagmi/core'
 import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
 import { mainnet, arbitrum } from '@reown/appkit/networks'
 
-// Get projectId from https://cloud.reown.com
 // export const projectId = process.env.NEXT_PUBLIC_PROJECT_ID
-export const projectId = "65f235ef097298c05aaae13da50f9fa4"
+export const projectId = "Your project ID here"
 
 if (!projectId) {
   throw new Error('Project ID is not defined')
